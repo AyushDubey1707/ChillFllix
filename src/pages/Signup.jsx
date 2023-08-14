@@ -81,7 +81,6 @@ position:relative;
         background-color : rgba(0,0,0,0.5);
         height:100vh;
         width:100vw;
-        display:grid;
         grid-template-rows: 15vh 85vh;
         .body{
             gap: 1rem;
