@@ -16,7 +16,7 @@ import {
     const {
       data: { genres },
     } = await axios.get(
-      "https://api.themoviedb.org/3/movie/550?api_key=9c5a7fd794280c69c18b0ee674889e1"
+      "https://api.themoviedb.org/3/movie/11?api_key=9c5a7fd794280c69c18b0ee674889e1d"
     );
     return genres;
   });
@@ -57,7 +57,7 @@ import {
         netflix: { genres },
       } = thunkAPI.getState();
       return getRawData(
-        `https://api.themoviedb.org/3/movie/550?api_key=9c5a7fd794280c69c18b0ee674889e&with_genres=${genre}`,
+        `https://api.themoviedb.org/3/movie/11?api_key=9c5a7fd794280c69c18b0ee674889e1d&with_genres=${genre}`,
         genres
       );
     }
